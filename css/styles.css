@@ -1,0 +1,70 @@
+body {
+    background-image: url('../images/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    background-color: #003054;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.color {
+    color: #003054;
+}
+
+.logo {
+    height:8vh;
+}
+.start {
+    margin-top: 80vh;
+}
+.opaquebg {
+    background-color: antiquewhite;
+    opacity: 70%;
+}
+.opaquebg h1{
+    color: #003054;
+}
+.card-format {
+    background-color: #003054;
+    min-height: 50vh;
+    width: 250px;
+    color: white;
+}
+.centermargin {
+    align-self: center;
+}
+.about {
+    background-color: #fff;
+    padding: 3% 20% ;
+    color: #003054;
+   
+}
+.contact {
+    background-color: #003054;
+    padding: 3% 20% ;
+    color:#fff;
+}
+.bgblue {
+    margin-top: 100px;
+    background-color: #003054;
+    color:#fff;
+    padding: 3% 20% ;
+}
+.bgwhite {
+    
+    background-color: #fff;
+    color:#003054;
+    padding: 3% 20% ;
+}
+@media(max-width: 768px) {
+    .img{
+      height: auto;
+      background-size: contain;
+    }
+  }
