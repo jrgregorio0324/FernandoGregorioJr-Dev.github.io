@@ -1,0 +1,50 @@
+.menu{
+    background-color: aqua;
+    
+}
+nav {
+    display: flex;
+    background-color: blue;
+    height: 75px !important;
+    justify-content: space-between;
+}
+
+#div-page-name {
+        width: 30% !important;
+    display: flex;
+    align-items: center;
+    color: white;
+} 
+#div-page-menu {
+     width: 40% !important;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}    
+
+#hero-section { 
+    background-image: url("../images/bg3.jpg");   
+    height: 500px;
+    background-repeat: no-repeat;
+    
+    justify-content: center;
+
+}
+
+#div-user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#div-user-info p {
+    line-height: 5px;
+    align-items: center;
+}
+
+#div-user-info {
+    align-items: center;
+    justify-content: center;
+}    
